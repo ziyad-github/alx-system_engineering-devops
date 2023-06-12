@@ -1,7 +1,2 @@
 #!/bin/bash
-
-for file in [-9]*; do
-    if [ -f "$file" ]; then
-        chmod 777 "$file"
-    fi
-done
+chmod -R +X *
