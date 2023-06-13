@@ -1,2 +1,2 @@
 #!/bin/bash
-find /usr/local/sbin -maxdepth 1 -type d | wc -l
+echo $(find /usr/local/sbin -maxdepth 1 -type d | wc -l)
